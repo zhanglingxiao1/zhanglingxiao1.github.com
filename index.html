@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+ <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+<style type="text/css">
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}</style>
+	</head>
+	<body>
+	<header >
+    <div class="container">
+    	<img src="img/name.png" alt="" class="logo"/>
+        <ul class="mainnav">
+            <li data-menuanchor="page1 " class="active"><a href="#page1">首     页</a></li>
+            <li data-menuanchor="page2" ><a href="#page2">关于我</a></li>
+            <li data-menuanchor="page3" ><a href="#page3">作品展示</a></li>
+            <li data-menuanchor="page4" ><a href="#page4">联系我</a></li>
+       </ul>
+        </div>
+    </header>
+
+	
+		<div class="main">
+		<div class="section s1">
+			<img src="img/img-1.png" class="signature"/>
+		<!--<h3>追逐梦想，寻找自己的蓝天</h3>
+		<h3>有那么一颗追逐<span>梦想</span>的<span>Heart</span></h3>
+		<h3>一直在跳动</h3>-->
+		</div>
+			
+			<!--第二板块-->
+			<div class="section s2">
+			<h1><span>About</span> me</h1>
+		
+			<div id="madan">
+			<p class="" style="color: #fff;">现在的我还是个"菜鸟" 因有很多不足需要满足 我一直深信不疑 有选择的坚持才会有下一个完美 <br />在前端这条路上越走越远，走向那梦想的地方 </p></div>
+			
+			<div class="people">
+				<img src="img/IMG_3524.png" class="pic"/>
+			<ul>
+				<li><span>设备规格：</span>前端工程师</li>
+				<li><span>设备类型：</span>男童鞋</li>
+				<li><span>运行环境：</span>等得住压力，扛得住诱惑</li>
+				<li><span>设备特点：</span>给个馒头就能过</li>
+				<li><span>设备链接：</span>对于bootstrap jqmoblie ajax  angular 有一定的运用</li>
+			</ul></div>
+			<img src="img/table.png" class="pic1"/>
+			</div>
+			<!--/第三块/-->
+			<div class="section s3">
+			<div class="content">
+				<img src="img/mywork.png" class="mywork"/>
+				<ul>
+					<li><a href=""></a>
+						<img src="img/s3-11.jpg" alt="" />
+						<p>这是一个网站</p>
+				
+					</li>
+					<li><a href=""></a>
+						<img src="img/s3-2.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+					<li><a href=""></a>
+						<img src="img/s3-3.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+					<li><a href=""></a>
+						<img src="img/s3-4.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+					<li><a href=""></a>
+						<img src="img/s3-5.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+					<li><a href=""></a>
+						<img src="img/s3-6.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+					<li><a href=""></a>
+						<img src="img/s3-7.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+					<li><a href=""></a>
+						<img src="img/s3-1.jpg" alt="" />
+						
+						<p>这是一个网站</p></li>
+				</ul>
+			</div>
+		
+			</div>
+			<!--第四块-->
+			
+			<div class="section s4">
+			123
+			</div>
+			</div>
+		
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/nomal.js">
+		
+	</script>
+		<script type="text/javascript">$(function(){
+	$('.main').fullpage({
+
+		anchors: ['page1', 'page2', 'page3', 'page4', ],
+		menu: '.mainnav', //导航与板块的链接
+		slidesNavigatiqon:true,//小圆点
+		normalScrollElementTouchThreshold:5,//手机触摸
+	
+		animateAnchor: true,
+
+//		afterLoad: function(anchorLink, index) {
+//	
+//			if (index == 8) {
+//	
+//			} //if ed 
+//
+//		}, //afterload ed
+//		onLeave: function(index, direction) {
+//			if (index == 8) {
+	
+//			} //if ed
+//		}
+	});
+//setInterval(function(){
+//      $.fn.fullpage.moveSlideRight();
+//  },3000);
+
+});
+</script>
+	</body>
+</html>
