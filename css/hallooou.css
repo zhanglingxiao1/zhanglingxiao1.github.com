@@ -26,7 +26,9 @@
 
 /*
 ----------------------------------------------------- */
-
+#picnc .img-responsive1,.img-responsive2{margin-top: 50px;}
+#picnc img{height: 250px;width: auto;}
+#picnc .img-responsive3{margin-top: -55px;}
 .fill{background-image:url(../img/introduction-visual.jpg);background-size:100% auto ;}
 .content-section img{width: 100%;height: auto;}
 
