@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html manifest="index.manifest">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -313,6 +313,11 @@
 <script src="js/jquery.countto.js"></script>
 <script src="js/pace.min.js"></script>
 <script src="js/hallooou.js"></script>
-
+<script type="text/javascript">
+	window.applicationCache.addEventListener('updateready', function(){
+            console.log('updateready!');
+            window.applicationCache.swapCache();
+        });
+</script>
 </body>
 </html>
