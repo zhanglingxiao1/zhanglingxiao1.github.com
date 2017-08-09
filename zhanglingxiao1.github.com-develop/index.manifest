@@ -1,0 +1,44 @@
+CACHE MANIFEST  
+# VERSION 1.12 
+  
+# 直接缓存的文件d  
+CACHE:  
+js/bootstrap.min.js
+js/jquery.countto.js
+js/pace.min.js
+js/wow.min.js
+js/jquery-1.8.3.min.js
+js/hallooou.js  
+css/color_main.css
+css/animate.css
+css/bootstrap.min.css
+css/font-awesome.min.css
+css/hallooou.css
+css/owl.transitions.css
+fonts/fontawesome-webfont.woff
+
+img/bj4.jpg
+img/counter_bg.jpg
+img/introduction-visual.jpg
+img/jobs_background.jpg
+img/name.png
+img/portfolio_bg.jpg
+img/s3-1.jpg
+img/s3-11.jpg
+img/s3-2.jpg
+img/s3-3.jpg
+img/s3-4.jpg
+img/s3-5.jpg
+img/s3-6.jpg
+img/s3-7.jpg
+img/tab1.png
+img/tab2.png
+img/tab3.png
+  
+# 需要在在线的文件  
+NETWORK:  
+index.html   
+  
+# 替代方案  
+FALLBACK:  
+#/ajax/ ajax.html  
